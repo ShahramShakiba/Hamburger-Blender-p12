@@ -20,9 +20,9 @@ gltfLoader.setDRACOLoader(dracoLoader);
 
 let mixer = null;
 
-gltfLoader.load('/models/hamburger.glb', (gltf) => {
-  scene.add(gltf.scene);
-});
+// gltfLoader.load('/models/hamburger.glb', (gltf) => {
+//   scene.add(gltf.scene);
+// });
 
 //======================= Floor =======================
 const floor = new THREE.Mesh(
@@ -65,10 +65,11 @@ controls.enableDamping = true;
 //==================== Renderer ========================
 const renderer = new THREE.WebGLRenderer({
   canvas: canvas,
+  antialias: true,
 });
 renderer.shadowMap.enabled = true;
 renderer.shadowMap.type = THREE.PCFSoftShadowMap;
-renderer.setSize(sizes.width, sizes.height);
+renderer.setSize(width, height);
 renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
 
 //================ Resize Listener ====================
@@ -81,8 +82,6 @@ window.addEventListener('resize', () => {
 
   renderer.setSize(width, height);
   renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
-
-  adjustObjectsAndParticles(width);
 });
 
 //=================== Animate =======================
