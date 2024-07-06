@@ -69,26 +69,15 @@ Blender is often used in conjunction with three.js (a popular JavaScript library
 <br/> <br/> <br/> 
 
 
-> ### _Which Concepts Have I Covered_: <br/>
-
-01. _<h4></h4>_
-02. _<h4></h4>_
-03. _<h4></h4>_
-04. _<h4></h4>_
-05. _<h4></h4>_
-
-    
-<br/><br/>
-
 <!-------- try it live -------->
-#### _Give it a go in real-time and give me a Star_ &nbsp; <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25"  /> <a href="" target="_blank"> &nbsp; _Custom Hamburger with Blender_ </a> 
+#### _Give it a go in real-time and give me a Star_ &nbsp; <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Glowing Star" width="25"  /> <a href="https://hamburger-with-blender-shahram.netlify.app/" target="_blank"> &nbsp; _Custom Hamburger with Blender_ </a> 
 
 <br/>
 
 <!--------- Video --------->
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Clapper%20Board.webp" alt="Clapper Board" width="35" /> &nbsp; 
 
-
+https://github.com/ShahramShakiba/Hamburger-Blender-p12/assets/110089830/4341ca0d-1f41-45f4-b798-f87c2ddab55f
 
   <br/> 
 
