@@ -20,11 +20,15 @@ gltfLoader.setDRACOLoader(dracoLoader);
 
 let mixer = null;
 
+gltfLoader.load('/models/hamburger.glb', (gltf) => {
+  scene.add(gltf.scene);
+});
+
 //======================= Floor =======================
 const floor = new THREE.Mesh(
   new THREE.PlaneGeometry(50, 50),
   new THREE.MeshStandardMaterial({
-    color: '#444444',
+    color: '#8a7258',
     metalness: 0,
     roughness: 0.5,
   })
@@ -34,10 +38,10 @@ floor.rotation.x = -Math.PI * 0.5;
 scene.add(floor);
 
 //====================== Lights ========================
-const ambientLight = new THREE.AmbientLight(0xffffff, 2.4);
+const ambientLight = new THREE.AmbientLight(0xffffff, 0.8);
 scene.add(ambientLight);
 
-const directionalLight = new THREE.DirectionalLight(0xffffff, 1.8);
+const directionalLight = new THREE.DirectionalLight(0xffffff, 2.2);
 directionalLight.castShadow = true;
 directionalLight.shadow.mapSize.set(1024, 1024);
 directionalLight.shadow.camera.far = 15;
@@ -50,7 +54,7 @@ scene.add(directionalLight);
 
 //===================== Camera =========================
 const camera = new THREE.PerspectiveCamera(75, width / height, 0.1, 100);
-camera.position.set(-8, 4, 8);
+camera.position.set(-6, 8, 15);
 scene.add(camera);
 
 //================ Orbit Controls ======================
