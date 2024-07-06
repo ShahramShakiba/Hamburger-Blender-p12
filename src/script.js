@@ -20,10 +20,6 @@ gltfLoader.setDRACOLoader(dracoLoader);
 
 let mixer = null;
 
-// gltfLoader.load('/models/hamburger.glb', (gltf) => {
-//   scene.add(gltf.scene);
-// });
-
 //======================= Floor =======================
 const floor = new THREE.Mesh(
   new THREE.PlaneGeometry(50, 50),
